@@ -37,7 +37,7 @@ export default function Home() {
             className="face-img"
           />
           <h1 className="fade-in">Hi, I'm <span className="highlight">Shubham Solanki</span></h1>
-          <p className="fade-in delay-1">A passionate Web Developer & Designer</p>
+          <p className="fade-in delay-1">A passionate Web Developer & Designer & Founder</p>
         </div>
       </section>
 
@@ -46,6 +46,7 @@ export default function Home() {
         <div className="links-grid">
           <a href="https://github.com/iamshubham1704" target="_blank" rel="noopener noreferrer" className="link-card">GitHub</a>
           <a href="https://linkedin.com/in/shubham-solanki-902331321" target="_blank" rel="noopener noreferrer" className="link-card">LinkedIn</a>
+          <a href="https://coencers.com" target="_blank" rel="noopener noreferrer" className="link-card">Coencers</a>
         </div>
       </section>
 
@@ -108,7 +109,27 @@ export default function Home() {
             <div className="experience-content">
               <h3>ISP</h3>
               <h4>Internshala</h4>
-
+            </div>
+          </div>
+          <div className="experience-item">
+            <div className="experience-date">June 2025 – Present</div>
+            <div className="experience-content">
+              <h3>Contributor</h3>
+              <h4>Socail Summer of Code</h4>
+            </div>
+          </div>
+          <div className="experience-item">
+            <div className="experience-date">March 2025 – May 2025</div>
+            <div className="experience-content">
+              <h3>Head of Finance</h3>
+              <h4>AnalytixLabs</h4>
+            </div>
+          </div>
+          <div className="experience-item">
+            <div className="experience-date">Jan 2025 – April 2025</div>
+            <div className="experience-content">
+              <h3>Startup Development Head</h3>
+              <h4>Bizbyte</h4>
             </div>
           </div>
         </div>
@@ -129,6 +150,14 @@ export default function Home() {
             <span>JavaScript</span>
           </div>
           <div className="skill-card">
+            <img src="/typescript.svg" alt="JavaScript" />
+            <span>TypeScript</span>
+          </div>
+          <div className="skill-card">
+            <img src="/python.svg" alt="JavaScript" />
+            <span>Pythoh</span>
+          </div>
+          <div className="skill-card">
             <img src="/react.png" alt="React" />
             <span>React</span>
           </div>
@@ -139,6 +168,46 @@ export default function Home() {
           <div className="skill-card">
             <img src="/mongo.png" alt="MongoDB" />
             <span>MongoDB</span>
+          </div>
+          <div className="skill-card">
+            <img src="/android.svg" alt="Android" />
+            <span>Android</span>
+          </div>
+          <div className="skill-card">
+            <img src="/Aurdino.svg" alt="MongoDB" />
+            <span>Aurdino</span>
+          </div>
+          <div className="skill-card">
+            <img src="/aws.svg" alt="MongoDB" />
+            <span>AWS</span>
+          </div>
+          <div className="skill-card">
+            <img src="/c.svg" alt="MongoDB" />
+            <span>C</span>
+          </div>
+          <div className="skill-card">
+            <img src="/chatjs.svg" alt="MongoDB" />
+            <span>Chart.js</span>
+          </div>
+          <div className="skill-card">
+            <img src="/dart.svg" alt="MongoDB" />
+            <span>Dart</span>
+          </div>
+          <div className="skill-card">
+            <img src="/figma.svg" alt="MongoDB" />
+            <span>Figma</span>
+          </div>
+          <div className="skill-card">
+            <img src="/firebase.svg" alt="MongoDB" />
+            <span>Firebase</span>
+          </div>
+          <div className="skill-card">
+            <img src="/flutter.svg" alt="MongoDB" />
+            <span>Flutter</span>
+          </div>
+          <div className="skill-card">
+            <img src="/git.svg" alt="MongoDB" />
+            <span>Git</span>
           </div>
         </div>
       </section>
